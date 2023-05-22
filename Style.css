@@ -1,0 +1,346 @@
+html{
+    font-size: 62.5%;    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    margin: 0px;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+header {
+width: 100%;
+overflow-x: hidden;
+}
+
+nav {
+width: 100%;
+white-space: nowrap;
+}
+a{text-decoration: none;}
+
+/* ***************************************************************** */
+.d-flex{display: flex;}
+.justify-content-space-between{justify-content: space-between; align-items: center;}
+.text-center{text-align: center;}
+.flex-wrap-wrap{flex-wrap: wrap;}
+.position-absolute{position: absolute}
+.position-relative{position: relative}
+
+
+/* ***************************IDs************************************** */
+
+#home, #about, #products, #testimonial, #remoteControl, #register, #footer{
+    padding-left: 17vw;
+    padding-right: 17vw;
+    margin: 0px;
+}
+
+#home{
+    background-image: url(/img/background\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+}
+#about{
+    background-color: rgb(225, 248, 248);
+    height: 100vh;
+}
+#products{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    height: min-content;
+}
+#remoteControl{
+    background-image: url(/img/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#testimonial{
+    min-height: 100vh;
+    height: min-content;
+}
+#register{
+    background-color: rgb(225, 248, 248);
+    min-height: 60vh;
+    height: min-content;
+}
+#footer{ 
+    min-height: 40vh;
+    height: min-content;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding-top: 5vh;
+}
+.navbar{
+    position: fixed;
+    background:white ;
+    z-index: 999;
+    display: block;
+    margin-top: 0;
+
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+.home-content-width{
+    width: 33vw;
+}
+.home-content{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    
+}
+.home-image{
+    top: 70;
+    max-width: 100%;
+    
+}
+.home-heading-1{
+    font-size: 4em;
+    margin: 0;
+}
+.home-heading-2{
+    font-size: 5em;
+    margin: 0;
+}
+.home-text{
+    font-size: 2em;
+}
+/* ***********About********** */
+
+.about-content-width{
+    width: 33vw;
+}
+.about-content{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    text-align: right;
+    
+}
+.about-image{
+    padding-top: 25vh;
+    padding-left: 1vw;
+    max-width: 100%;
+    
+}
+.image-side-relative{
+    right: 10rem
+}
+.about-heading-1{
+    font-size: 4em;
+    margin: 0;
+}
+.about-heading-2{
+    font-size: 5em;
+    margin: 0;
+}
+.about-text{
+    font-size: 2em;
+}
+/* ******************* */
+.d-flex-special{display: flex;}
+.product-content{
+    width: 32vw;
+    text-align: center;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+.product-image{
+    width: 25vw;
+    padding-top: 10%;
+}
+.product-info{
+    font-size: 2em;
+}
+/* ******************** */
+.remoteControl-image{
+    width: 60vw;
+    padding-top: 3%;
+}
+/* *********************** */
+.test-content{
+    margin-top: 15vh; border: 2px solid black; border-radius: 2%; margin-left: 3vw; width: 60vw;
+}
+.test-pic{
+    display: flex;
+    background-color: aqua;
+    width: 40%;
+}
+.test-img-p{
+    width: 29%;
+    height: 29%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.test-h1-T{
+    display: flex;
+}
+.test-img-T{
+    display: flex;
+    flex-direction: column;
+}
+.test-btn{
+text-align: center;
+}
+/* ******************** */
+.input-style{
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+    border: 0px;
+    border-bottom: 2px solid grey;    
+    background-color: rgb(225, 248, 248);
+}
+/* ******************* */
+.footer-content{
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;
+}
+.footer-text{
+    font-size: 1.em;
+}
+.footer-icon{
+    width: 2vw;
+}
+/* ********************** */
+
+.btn{
+    display: inline-block;
+    padding: 1em 2.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    border-radius: 10em;
+    font-size: 1.2rem;
+}
+.btn-upper{
+    padding-left: 2.3%; padding-right: 2.3%; background-color: aqua; display: inline; border-radius: 12em; padding-top: 3.4%; padding-bottom: 3%;
+}
+.btn-primary{
+    background-color: white;
+    
+}
+.btn:hover{
+    background-color: #ddd;
+}
+.round {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 2rem;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+  }
+.round:hover{
+    background-color: aqua;
+}
+.round-btn{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+/* ******************* */
+@media (max-width: 660px) {
+    /* ******Header***** */
+    .nav-item{flex-basis: 100%;}
+    /* ******Home****** */
+    #home, #about, #products, #testimonial, #remoteControl, #register, #footer{
+        padding-left: 4vw;
+        padding-right: 4vw;
+        margin: 0px;
+    }
+    #home{
+        height: 55vh;
+    }
+    .home-content-width{
+        width: 46vw;
+    }
+    .home-heading-1{
+        font-size: 2.5em;
+        margin: 0;
+    }
+    .home-heading-2{
+        font-size: 3em;
+        margin: 0;
+    }
+    .home-text{
+        font-size: 1.2em;
+    }
+    .home-image{
+        top: 70;
+        max-width: 100%;
+        
+    }
+    /* ************************* */
+    #about{
+        background-color: rgb(225, 248, 248);
+        height: min-content;
+    }
+    .about-content-width{
+        width: 46.5vw;
+    }
+    .about-content{
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        text-align: right;
+        
+    }
+    .about-image{
+        padding-top: 10vh;
+        max-width: 40%;
+        margin-left: 8%;
+        
+    }
+   
+    .about-heading-2{
+        font-size: 3em;
+        margin: 0;
+    }
+    .about-text{
+        font-size: 1.2em;
+    }
+    /* ******Products****** */
+    .d-flex-special{display: block; justify-content: center;}
+    #products{
+        height: min-content;
+    }
+    .product-content{
+        width: 92vw;
+        text-align: center;
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    .product-image{
+        width: 90vw;
+    }
+    #remoteControl{
+        height: 65vh;
+    }
+    .test-content{
+        width: 84vw;
+    }
+    .test-pic{
+        width: 70%;
+    }
+    .test-img-p{
+        width: 50%;
+        height: 29%;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    #register{
+        background-color: rgb(225, 248, 248);
+        height: min-content;
+    }
+    .footer-icon{
+        width: 10vw;
+    }
+
+}
